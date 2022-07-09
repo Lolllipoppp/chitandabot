@@ -1,13 +1,13 @@
 {
-  "wait": "_Wait a minute, data is being processed!_",
+  "wait": "_Tunggu Sebentar Yah Kak, Sedang Riku Proses Nih!_",
   "error": {
-    "Iv": "Link yang kamu berikan tidak valid",
-    "api": "Maaf terjadi kesalahan"
+    "Iv": "Berikan Link Yang Sesuai Dengan Command",
+    "api": "Maaf, Fitur Sedang Eror!, Cobalah Lagi"
   },
-  "OnlyGrup": "Perintah ini hanya bisa digunakan di grup",
-  "OnlyPM": "Perintah ini hanya bisa digunakan di private message",
+  "OnlyGrup": "Perintah Ini Hanya Untuk Grup",
+  "OnlyPM": "Perintah ini hanya Untuk Di Private Message",
   "GrupAdmin": "Perintah ini hanya bisa digunakan oleh Admin Grup",
   "BotAdmin": "Bot Harus menjadi admin",
-  "OnlyOwner": "Perintah ini hanya dapat digunakan oleh owner bot",
-  "OnlyPrem": "Perintah ini khusus member premium"
+  "OnlyOwner": "Kamu Bukan Pemilik Bot Ini, Command Ini Khusus Pemilik Aku:(",
+  "OnlyPrem": "Perintah Ini Khusus Member Premium Kak, Upgrade Fitur Premium ketik !owner dan chat owner untuk upgrade premium"
 }
