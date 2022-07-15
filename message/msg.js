@@ -34,7 +34,6 @@ const { addPlayGame, getJawabanGame, isPlayGame, cekWaktuGame, getGamePosi } = r
 const tictac = require("../lib/tictac");
 const _prem = require("../lib/premium");
 const { jadwaltv }= require('../lib/jadwaltv');
-const textpro = require('../lib/textpro');
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('../lib/exif')
 const  Searchnabi  = require('../lib/kisahnabi.js');
 const { Musikmatch } = require('../lib/Scrapp1.js');
@@ -877,46 +876,7 @@ var quot = [
 		conn.sendMessage(from, {text: hasil.quotes, templateButtons: quot, footer: `~ ${hasil.author}`, mentions: [sender]} )
 		limitAdd(sender, limit)
 break
-//textpro
-case prefix+'blackpink':
-case prefix+'neon':
-case prefix+'greenneon':
-case prefix+'advanceglow':
-case prefix+'futureneon':
-case prefix+'sandwriting':
-case prefix+'sandsummer':
-case prefix+'sandengraved':
-case prefix+'metaldark':
-case prefix+'neonlight':
-case prefix+'holographic':
-case prefix+'text1917':
-case prefix+'minion':
-case prefix+'deluxesilver':
-case prefix+'newyearcard':
-case prefix+'bloodfrosted':
-case prefix+'halloween':
-case prefix+'jokerlogo':
-case prefix+'fireworksparkle':
-case prefix+'natureleaves':
-case prefix+'bokeh':
-case prefix+'toxic':
-case prefix+'strawberry':
-case prefix+'box3d':
-case prefix+'roadwarning':
-case prefix+'breakwall':
-case prefix+'icecold':
-case prefix+'luxury':
-case prefix+'cloud':
-case prefix+'summersand':
-case prefix+'horrorblood':
-case prefix+'thunder':
-if (!q) return reply('#blackpink text') 
-reply (mess.wait)
-var buffer = await getBuffer(`https://api.lolhuman.xyz/api/textprome/${command.split(prefix)[1]}?apikey=Deffbotz&text=${q}`)
-conn.sendMessage(from, { caption: `DONE`,image: buffer , templateButtons: buttonsDefault, footer: 'TextProme', mentions: [sender] })
-break
-        
-    break
+
 //nsfw
 case prefix+'cersex':
   if (!isPremium)return reply("Perintah Ini Khusus Pengguna Premium, Upgrade Fitur Premium Ke Owner, Ketik !owner")
